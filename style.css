@@ -1,0 +1,118 @@
+html {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsla(205, 32%, 33%, 0.54);
+    text-align: center;
+  }
+  
+  .header {
+    background-color: hsla(201, 30%, 25%, 0.8);
+  }
+  
+  #top-title {
+    font-size: 1.25rem;
+  }
+  
+  #hip {
+    font-style: italic;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .container #tribute-info {
+    justify-self: center;
+  }
+
+  .container p {
+    text-align: justify;
+    margin-top: 0.5px;
+    font-weight: normal;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  #bottom-quote {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  #bottom {
+    font-family: arial, sans-serif;
+    background-color: hsla(201, 30%, 25%, 0.8);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #bottom a:visited {
+    color: white;
+  }
+
+  #donate {
+    font-size: 1.1rem;
+  }
+
+  #button {
+    background-color: rgba(3, 85, 99, 1);
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+  }
+  
+  #button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #button a:hover {
+    color: black;
+    font-weight: bold;
+  }
+  
+  #bottom h3 {
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin: -1%;
+  }
+
+  /* Media Queries */
+  @media only screen and (max-width: 600px) {
+    body {
+      padding: 5px;
+      
+    }
+
+    .container {
+      overflow-wrap: normal;
+      border: none;
+      grid-template-columns: 95%;
+    }
+
+    #donate {
+      padding-top: 20px;
+    }
+  }
